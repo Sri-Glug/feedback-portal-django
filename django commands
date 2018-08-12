@@ -1,0 +1,6 @@
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations appname
+python manage.py migrate
